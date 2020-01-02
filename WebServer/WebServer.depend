@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1577878072 source:e:\personal\c++\webserver\tcplistener.cpp
+	"TcpListener.h"
+
+1577898171 e:\personal\c++\webserver\tcplistener.h
+	<iostream>
+	<sstream>
+	<fstream>
+	<vector>
+	<map>
+	<iterator>
+	<ws2tcpip.h>
+
+1577877664 source:e:\personal\c++\webserver\main.cpp
+	"WebServer.h"
+
+1577898608 e:\personal\c++\webserver\webserver.h
+	"TcpListener.h"
+
+1577959455 source:e:\personal\c++\webserver\webserver.cpp
+	"WebServer.h"
+	"HttpBuilder.h"
+	"HttpParser.h"
+
+1577960701 source:e:\personal\c++\webserver\httpbuilder.cpp
+	"HttpBuilder.h"
+
+1577960709 e:\personal\c++\webserver\httpbuilder.h
+	<map>
+	<string>
+	<sstream>
+
+1577960550 e:\personal\c++\webserver\httpparser.h
+	<string>
+	<iostream>
+	<sstream>
+
+1577960953 source:e:\personal\c++\webserver\httpparser.cpp
+	"HttpParser.h"
+
